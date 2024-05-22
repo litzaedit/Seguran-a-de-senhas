@@ -3,7 +3,7 @@
 :root{
     --laranja: rgb(255, 208, 107);
     --cor-de-fundo: #8400ff;
-    --fundo-senha: #f772c4;
+    --fundo-senha: #1476e6;
     --fundo-texto: #000000;
     --borda: #ff9900;
     --roboto: 'Roboto', sans-serif;
@@ -44,7 +44,7 @@ body{
 #campo-senha{
     background-color: var(--fundo-senha);
     border: none;
-    color: var(--branco);
+    color: var(--laranja);
     font-family: var(--roboto-mono);
     font-size: 40px;
     width: 70%;
@@ -92,7 +92,7 @@ body{
 
 .parametro-senha__botao{
     background-color: var(--fundo-texto);
-    color: var(--branco);
+    color: var(--laranja);
     border: 2px solid var(--borda);
     padding: 24px;
     font-size: 24px;
@@ -121,7 +121,8 @@ body{
             flex-direction: row;
         }
     }
-    font-size: 24px;
+
+   {font-size: 24px;
 }
 
 .conteudo-titulo{
